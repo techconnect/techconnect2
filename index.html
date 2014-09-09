@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="google-site-verification" content="E6q5HsGVL_JaXlX8iJ8acb0K5VDD2V2dltN8xWJtgD0" />
+        <meta name="google-site-verification" content="VS272C8AMCft6Pmqi-_F6sy6378sdUABfXIFZo4aBHc" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a website designed by QASMT Students for the Active Volunteering project. This is a combined effort of Year 10 Students for the Active Volunteering Project. Here, you will find tutuorials on how to use apps and connect via apps on your smartphpones.">
+
+        <title>TechConnect | QASMT | Active Volunteering Project</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/themeCss.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+
+    <body style="overflow-x: hidden;">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TechConnect</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="tuts/tutsHome.html">Tutorials Home</a></li>
+                                <li class="divider"></li>
+                                <li><a href="tuts/android.html">Android Phones<img src="img/logos/a.png" style="width: 50px; height: 50px; margin-left: 10%;"></a></li>
+                                <li class="divider"></li>
+                                <li><a href="tuts/ipad.html">Apple Devices<img src="img/logos/al.png" style="width: 50px; height: 50px; margin-left: 10%;"></a></li>
+                                <li class="divider"></li>
+                                <li><a href="tuts/windowsphone.html">Windows Phone<img src="img/logos/wl.png" style="width: 50px; height: 50px; margin-left: 10%;"></a></li>
+                                <li class="divider"></li>
+                                <li><a href="tuts/cantSelect.html">Can't Select</a></li>
+                                <li class="divider"></li>
+                                <li><a href="tuts/justLearn.html">More about Apping</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a id="email" href="contact.html">E-Mail Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="hiddenAtStart">
+            <h1>TechConnect</h1>
+            <label>Change Font Size&nbsp;</label><button id="big" class="btn btn-default navbar-btn" style="width: 10%" onclick="increaseFontSize()"><strong><span style="font-size: 1.6em">+</span></strong></button>
+            <button id="small" class="btn btn-default navbar-btn disabled" style="width: 10%" onclick="decreaseFontSize()"><strong><span style="font-size: 1.6em">-</span></strong></button>
+            <button id="ea" class="btn btn-default navbar-btn">Enable Accessibility</button>
+
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 dis">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h2>Tutorials</h2>
+                            <p> You can find exciting ways to use mobile apps and new ways to use your wonderful phones<br><br></p>
+                            <p><a href="tuts/tutsHome.html" class="btn btn-primary" role="button">Go To Tutorials</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 dis">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h2>About Ourselves</h2>
+                            <p> Explore who we are, and what we do. This will lead you to more information about the group.<br><br></p>
+                            <p><a href="about.html" class="btn btn-primary" role="button">About Ourselves</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 dis">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h2>Contact Us</h2>
+                            <p>Use this link to contact us and ask any questions that have arose after the sessions. We aim to reply as soon as possible<br><br> </p>
+                            <p><a href="contact.html" class="btn btn-primary" role="button">Contact Us</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 dis" style="padding: 2%">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h2>Aim of this website</h2>
+                            <p>This website was created by Year 10 QASMT students for the Active Volunteering Project, which aims to develop skills in elderly citizens on using Mobile Apps<br>
+                                This website will provide comprehensive tutorials and also enable to contact us for any queries that needs to be answered. <br>
+                                Our focus here will be on mobile apps
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-default navbar-fixed-bottom footer" role="navigation"></nav>
+        </div>
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

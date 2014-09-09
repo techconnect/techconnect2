@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<button id="sendHyperlink"><a href="mailto:rshad7@eq.edu.au?Subject=Active Volunteering%20QASMT" target="_top">
+        Mail</a></button>
+    <button id="hme"><a href="index.html">Return Home</a></button>
+    <div id="e"><p><br><br>Click me to send an eMail<br><br>Or, if this link does not work eMail <strong>example@eq.edu.au</strong></p></div>
+    <div id="h"><p><br><br>Go Home</p></div>
+    <style>
+        button{
+            position: relative;
+            margin-top: 20%;
+        }
+        #e,#h{
+            display: none;
+        }
+    </style>
+</body>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $("#sendHyperlink").hover(function(){
+        $("#e").toggle();
+    });
+    $("#hme").hover(function(){
+        $("#h").toggle();
+    });
+</script>

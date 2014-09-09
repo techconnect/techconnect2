@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="" description="" url="~/">
+    <siteMapNode title="about" description="About" url="~/about.php"/>
+    <siteMapNode title="contact" description="Contact" url="~/contact.php"/>
+    <siteMapNode title="css" description="Css" url="~/css/">
+      <siteMapNode title="" description="" url="~/css//">
+        <siteMapNode title="fonts" description="Fonts" url="~/css//fonts.googleapis.com/">
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="error" description="Error" url="~/error/">
+      <siteMapNode title="error404" description="Error404" url="~/error/error404.php"/>
+    </siteMapNode>
+    <siteMapNode title="fonts" description="Fonts" url="~/fonts/"/>
+    <siteMapNode title="img" description="Img" url="~/img/">
+      <siteMapNode title="logos" description="Logos" url="~/img/logos/"/>
+      <siteMapNode title="tuts" description="Tuts" url="~/img/tuts/"/>
+      <siteMapNode title="windows" description="Windows" url="~/img/windows/">
+        <siteMapNode title="store" description="Store" url="~/img/windows/store/"/>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="Index" url="~/index.php"/>
+    <siteMapNode title="js" description="Js" url="~/js/">
+    </siteMapNode>
+    <siteMapNode title="tuts" description="Tuts" url="~/tuts/">
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="Android" url="~/tuts/android.php"/>
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="CantSelect" url="~/tuts/cantSelect.php"/>
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="Ipad" url="~/tuts/ipad.php"/>
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="Iphone" url="~/tuts/iphone.php"/>
+      <siteMapNode title="justLearn" description="JustLearn" url="~/tuts/justLearn.php"/
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="TutsHome" url="~/tuts/tutsHome.php"/>
+      <siteMapNode title="TechConnect | QASMT | Active Volunteering Project" description="Windowsphone" url="~/tuts/windowsphone.php"/>
+    </siteMapNode>
+    <siteMapNode title="utils" description="Utils" url="~/utils/">
+      <siteMapNode title="img" description="Img" url="~/utils/img/">
+      </siteMapNode>
+      <siteMapNode title="menu" description="Menu" url="~/utils/menu.php"/>
+      <siteMapNode title="tuts" description="Tuts" url="~/utils/tuts/">
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
